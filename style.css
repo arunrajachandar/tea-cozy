@@ -1,0 +1,141 @@
+
+body,header{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;    
+}
+header{
+    position: static;
+    display: block;
+        height: 69px;
+        border-bottom: 1px solid seashell;
+        width: 100%;
+}
+.navigation-options{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 50%;
+
+}
+ul{
+    width: 150px;
+    
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: seashell;
+    justify-content: space-around;
+}
+a{
+
+    color: seashell;
+}
+@media screen and (max-width: 700px) {
+    nav{
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 700px) {
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+}  
+  .logo{
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.container{
+    position: absolute;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-1{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: table-cell;
+    
+    vertical-align: middle;
+
+
+}
+
+.container-2, .container-3{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    
+}
+.container-2{
+    max-width: 1000px;
+    top: 50%;
+}
+.cards{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.main-content{
+    width: 100%;
+    margin: 0 auto;
+}
+.card img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.container-3{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+   }
+#headwidth{
+    width: inherit;
+}
+.container-3 .content{
+        display: flex; 
+        flex-direction: column;
+    
+}
+.locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.location,  footer,.bgcolor{
+   background-color: black;
+   
+}
+.location{
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+}
+
+footer{
+    margin-left: 20px;
+    width: 100%;
+    display: block;
+    text-align: left;
+        clear: both;
+        
+    
+}
